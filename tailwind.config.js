@@ -7,6 +7,16 @@ export default {
         primary: "#4EE1A0",
       },
     },
+    container: {
+      center: true, // Center the container
+      padding: "1rem", // Add padding for all screen sizes
+      screens: {
+        sm: "600px",
+        md: "728px",
+        lg: "984px",
+        xl: "1240px",
+      },
+    },
   },
   plugins: [],
 };
