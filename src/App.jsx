@@ -43,7 +43,7 @@ function App() {
   });
   return (
     <div className="bg-slate-950 container mx-auto">
-      <header className="relative max-w-6xl mx-10 text-gray-50 ">
+      <header className="relative max-w-6xl mx-6 text-gray-50 ">
         <div className="navbar py-2 px-1 flex  justify-between items-center z-10">
           <span className=""> Akhi Mustik</span>
           <div className="relative z-10 flex gap-x-4 items-center bg-black h-9 p-1 rounded-md">
@@ -54,7 +54,7 @@ function App() {
           </div>
         </div>
 
-        <div className="hero-content py-8 px-6 flex flex-col-reverse lg:flex-row items-center justify-center text-center lg:items-start lg:justify-normal lg:text-start ">
+        <div className="hero-content py-8 px-4 flex flex-col-reverse lg:flex-row items-center justify-center text-center lg:items-start lg:justify-normal lg:text-start ">
           <div className="my-4 w-full lg:w-[80%] mr-0 lg:mr-12">
             <h1 className="text-6xl font-bold ">
               Nice to meet you!
@@ -100,7 +100,7 @@ function App() {
         <div className="-bottom-1 h-px left-0 right-0 bg-gray-200 mt-8"></div>
       </header>
 
-      <main className="bg-slate-950 relative max-w-6xl mx-10 text-gray-50 mt-20  p-4">
+      <main className="bg-slate-950 relative  mx-6 text-gray-50 mt-20  p-4">
         <div className="skills  ">
           <h1 className="text-6xl font-bold ">Skills</h1>
           <div className="">{skills}</div>
