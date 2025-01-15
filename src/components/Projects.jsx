@@ -9,8 +9,12 @@ import orvbam1 from "../assets/images/or-mobile-1.jpeg";
 import orvbam2 from "../assets/images/or-mobile-2.jpeg";
 import opdesk1 from "../assets/images/op-desk-1.jpeg";
 import opdesk2 from "../assets/images/op-desk-2.jpeg";
+import opmobile1 from "../assets/images/op-mobile-1.jpeg";
+import opmobile2 from "../assets/images/op-mobile-2.jpeg";
 import stdesk1 from "../assets/images/st-desk-1.jpeg";
 import stdesk2 from "../assets/images/st-desk-2.jpeg";
+import stmobile1 from "../assets/images/st-mobile-1.jpeg";
+import stmobile2 from "../assets/images/st-mobile-2.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -28,8 +32,8 @@ const Projects = () => {
     {
       img_desktop_1: opdesk1,
       img_desktop_2: opdesk2,
-      img_mobile_1: orvbam1,
-      img_mobile_2: orvbam2,
+      img_mobile_1: opmobile1,
+      img_mobile_2: opmobile2,
       title: "AUDIO DEVICES E-COMERCE APP ",
       description:
         "It's a web app frontend developed with Reat.js and Tailwind CSS , the user can see products with their details and can place an order through a shopping cart. the data shown here is a temporary sample data, No backend yet.",
@@ -38,8 +42,8 @@ const Projects = () => {
     {
       img_desktop_1: stdesk1,
       img_desktop_2: stdesk2,
-      img_mobile_1: orvbam1,
-      img_mobile_2: orvbam2,
+      img_mobile_1: stmobile1,
+      img_mobile_2: stmobile2,
       title: "SPACE TOURSIM WEBSITE ",
       description:
         "It's a website for space travellers. it displays the destination planets and the distance between each planet and the Earth. the space crew and the technologies",

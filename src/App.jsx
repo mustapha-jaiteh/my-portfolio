@@ -109,15 +109,15 @@ function App() {
         <Projects />
       </main>
       <footer className="bg-gray-900 relative w-auto text-gray-50 mt-20 p-2">
-        <div className="">
+        <div className=" items-center justify-center text-center">
           <h1 className="text-2xl font-bold mt-8 ">
             Source code is available on my github:
           </h1>
           <a
-            href="#"
+            href="https://github.com/mustapha-jaiteh"
             className="inline-block relative text-xs font-bold tracking-wider mb-16"
           >
-            Email: jaitehm20@gmail.com
+            https://github.com/mustapha-jaiteh
             <BorderBottom bottom="-bottom-1 h-px w-full " />
           </a>
         </div>
