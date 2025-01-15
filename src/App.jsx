@@ -42,7 +42,7 @@ function App() {
     return <Skills key={index} {...item} />;
   });
   return (
-    <div className="bg-slate-950">
+    <div className="bg-slate-950 w-full h-full">
       <header className="relative max-w-6xl mx-10 text-gray-50 ">
         <div className="navbar py-2 px-1 flex  justify-between items-center z-10">
           <span className=""> Akhi Mustik</span>
