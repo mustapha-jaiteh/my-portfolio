@@ -4,6 +4,15 @@ import IconLinkedin from "./assets/images/icon-linkedin.svg";
 import IconTwitter from "./assets/images/icon-twitter.svg";
 import BorderBottom from "./components/BorderBottom";
 import Icon from "./components/Icon";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa";
+import "tailwindcss/tailwind.css";
 
 import mustik from "./assets/images/mustik.jpeg";
 import Skills from "./components/Skills";
@@ -47,10 +56,33 @@ function App() {
         <div className="navbar py-2 px-1 flex  justify-between items-center z-10">
           <span className=""> Akhi Mustik</span>
           <div className="relative z-10 flex gap-x-4 items-center bg-black h-9 p-1 rounded-md">
-            <Icon image={IconGithHub} alt="GitHub Icon" />
+            {/* <Icon image={IconGithHub} alt="GitHub Icon" />
             <Icon image={IconFrontendMentor} alt="Frontend Mentor Icon" />
             <Icon image={IconLinkedin} alt="Linkedin Icon" />
-            <Icon image={IconTwitter} alt="Twitter Icon" />
+            <Icon image={IconTwitter} alt="Twitter Icon" /> */}
+            <a
+              href="https://github.com/mustapha-jaiteh"
+              className="text-gray-400 text-3xl hover:text-gray-600"
+            >
+              <FaGithub className="w-6 h-6 lg:w-8 lg:h-8 " />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mustapha-jaiteh-a61513278/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 text-3xl hover:text-blue-900"
+            >
+              <FaLinkedin className="w-6 h-6 lg:w-8 lg:h-8" />
+            </a>
+
+            <a
+              href="https://wa.me/002203609991?text=Hi%20Mustik,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-600 text-3x hover:text-green-800 "
+            >
+              <FaWhatsapp className="w-6 h-6 lg:w-8 lg:h-8 " />
+            </a>
           </div>
         </div>
 
@@ -86,6 +118,13 @@ function App() {
                 Email: jaitehm20@gmail.com
                 <BorderBottom bottom="-bottom-1 h-px w-full lg:w-[33%]" />
               </p>
+              <a
+                href="/CV/Mustapha_Jaiteh_CV2.pdf"
+                download
+                className="inline-block bg-green-500 text-white font-bold py-2 px-4 rounded w-48 hover:bg-green-700 transition duration-200 place-self-center lg:place-self-start"
+              >
+                Download My CV
+              </a>
             </div>
           </div>
           {/* image part */}
@@ -121,45 +160,35 @@ function App() {
             <BorderBottom bottom="-bottom-1 h-px w-full " />
           </a>
         </div>
-
-        {/* <form
-          action="#"
-          className="form right-0 ml-[300px] mt-5 w-[426px] h-[400px] bg-gray-800 p-16 pb-0 rounded-md"
-        >
-          <input
-            type="text"
-            placeholder="NAME"
-            className=" Name bg-gray-800 -bottom-1 h-[50px] p-3 w-full "
-          />
-          <div className="-bottom-1 h-px left-0 right-0 bg-gray-200 mt-0"></div>
-          <input
-            type="text"
-            placeholder="EMAIL"
-            className=" Email bg-gray-800 -bottom-1 h-[50px] p-3 w-full mt-10"
-          />
-          <div className="-bottom-1 h-px left-0 right-0 bg-gray-200 mt-0"></div>
-          <input
-            type="text"
-            placeholder="MESSAGE"
-            className=" Message bg-gray-800  h-[50px] p-3 w-full mt-10"
-          />
-          <div className="-bottom-1 h-px left-0 right-0 bg-gray-200 mb-10"></div>
-          <div className="mt-0 ml-[60%]">
-            <a
-              href="#"
-              className="inline-block relative  text-xs font-bold tracking-wider mb-16 text-gray-50"
-            >
-              SEND MESSAGE
-              <BorderBottom bottom="-bottom-1 h-px" />
-            </a>
-          </div>
-        </form> */}
         <div className="-bottom-1 h-px left-0 right-0 bg-gray-200 mt-8"></div>
         <div className="relative z-10 flex gap-x-4 items-center justify-center h-9 p-1 rounded-md mt-4 mb-10 ">
-          <Icon image={IconGithHub} alt="GitHub Icon" />
+          {/* <Icon image={IconGithHub} alt="GitHub Icon" />
           <Icon image={IconFrontendMentor} alt="Frontend Mentor Icon" />
           <Icon image={IconLinkedin} alt="Linkedin Icon" />
-          <Icon image={IconTwitter} alt="Twitter Icon" />
+          <Icon image={IconTwitter} alt="Twitter Icon" /> */}
+          <a
+            href="https://github.com/mustapha-jaiteh"
+            className="text-gray-400 text-3xl hover:text-gray-600"
+          >
+            <FaGithub className="w-6 h-6 lg:w-8 lg:h-8 " />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mustapha-jaiteh-a61513278/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 text-3xl hover:text-blue-900"
+          >
+            <FaLinkedin className="w-6 h-6 lg:w-8 lg:h-8" />
+          </a>
+
+          <a
+            href="https://wa.me/002203609991?text=Hi%20Mustik,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 text-3x hover:text-green-800 "
+          >
+            <FaWhatsapp className="w-6 h-6 lg:w-8 lg:h-8 " />
+          </a>
         </div>
       </footer>
     </div>
