@@ -76,7 +76,7 @@ function App() {
             </a>
 
             <a
-              href="https://wa.me/002203609991?text=Hi%20Mustik,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+              href="https://wa.me/2203609991?text=Hi%20Mustik,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-600 text-3x hover:text-green-800 "
@@ -182,7 +182,7 @@ function App() {
           </a>
 
           <a
-            href="https://wa.me/002203609991?text=Hi%20Mustik,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+            href="https://wa.me/2203609991?text=Hi%20Mustik,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-600 text-3x hover:text-green-800 "
