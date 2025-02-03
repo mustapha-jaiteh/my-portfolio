@@ -15,9 +15,23 @@ import stdesk1 from "../assets/images/st-desk-1.jpeg";
 import stdesk2 from "../assets/images/st-desk-2.jpeg";
 import stmobile1 from "../assets/images/st-mobile-1.jpeg";
 import stmobile2 from "../assets/images/st-mobile-2.jpeg";
+import techgamdesk1 from "../assets/images/techgam-desk-1.jpeg";
+import techgamdesk2 from "../assets/images/techgam-desk-2.jpeg";
+import techgammobile1 from "../assets/images/techgam-mobile-1.jpeg";
+import techgammobile2 from "../assets/images/techgam-mobile-2.jpeg";
 
 const Projects = () => {
   const projects = [
+    //IT companies derectory website
+    {
+      img_desktop_1: techgamdesk1,
+      img_desktop_2: techgamdesk2,
+      img_mobile_1: techgammobile1,
+      img_mobile_2: techgammobile2,
+      title: "IT COMPANIES DIRECTORY WEBSITE ",
+      description:
+        "TECH IN GAMBIA is the ultimate directory for IT companies in The Gambia. the website helps users discover and connect with tech companies, including software firms, ISPs, and GSM providers. ",
+    },
     // Orvba fullstack
     {
       img_desktop_1: orvbad1,
