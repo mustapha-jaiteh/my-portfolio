@@ -40,7 +40,7 @@ const Projects = () => {
       img_mobile_2: orvbam2,
       title: "VEHICLE BREAKDOWN ASSISTANCE APP",
       description:
-        "It's a fullstack web application, frontend with React.js and Tailwind CSS, and backend will be developed with PHP Laravel.The application is designed to provide the users with the best possible solutions for their vehicle maintenance needs. It aims to reduce time and cost for the users to find mechanics during breakdowns. the data shown here is a temporary sample data, No backend yet ",
+        "It's a fullstack web application, frontend with React.js and Tailwind CSS, and backend with PHP Laravel.The application is designed to provide the users with the best possible solutions for their vehicle maintenance needs. It aims to reduce time and cost for the users to find mechanics during breakdowns. the data shown here is a temporary sample data, No backend yet ",
     },
     // audio devices
     {

@@ -29,7 +29,11 @@ function App() {
       experience: "6 months experience",
     },
     {
-      skill: " CORE JAVA",
+      skill: "PHP LARAVEL BASICS",
+      experience: "4 months experience",
+    },
+    {
+      skill: " CORE JAVA, ANDROID BASICS",
       experience: "2 years experience",
     },
     {
