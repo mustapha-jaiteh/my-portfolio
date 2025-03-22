@@ -37,11 +37,6 @@ function App() {
       experience: "2 years experience",
     },
     {
-      skill: "JAVA ANDROID BASICS ",
-      experience: "2 years experience",
-    },
-
-    {
       skill: "PHOTOSHOP GRAPHIC DESIGN",
       experience: "2 years experience",
     },
