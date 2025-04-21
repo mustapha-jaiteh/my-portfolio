@@ -50,8 +50,8 @@ function App() {
     return <Skills key={index} {...item} />;
   });
   return (
-    <div className="bg-slate-950 max-w-screen-lg mx-auto">
-      <header className="relative max-w-6xl mx-6 text-gray-50 ">
+    <div className="bg-slate-950 ">
+      <header className="relative  mx-6 text-gray-50 ">
         <div className="navbar py-2 px-1 flex  justify-between items-center z-10">
           <span className=""> Akhi Mustik</span>
           <div className="relative z-10 flex gap-x-4 items-center bg-black h-9 p-1 rounded-md">
@@ -138,7 +138,7 @@ function App() {
         <div className="-bottom-1 h-px left-0 right-0 bg-gray-200 mt-8"></div>
       </header>
 
-      <main className="bg-slate-950 relative max-w-6xl mx-4 lg:mx-10 text-gray-50 mt-20  p-4">
+      <main className="bg-slate-950 relative  mx-4 lg:mx-10 text-gray-50 mt-20  p-4">
         <div className="skills  ">
           <h1 className="text-6xl font-bold ">Skills</h1>
           <div className="">{skills}</div>
