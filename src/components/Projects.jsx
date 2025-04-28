@@ -1,4 +1,5 @@
 import React from "react";
+import BorderBottom from "./BorderBottom";
 import landingpage1 from "../assets/images/landing-page-1.jpeg";
 import landingpage2 from "../assets/images/landing-page-2.jpeg";
 import meerath1 from "../assets/images/meerath-1.jpeg";
@@ -31,6 +32,7 @@ const Projects = () => {
       title: "IT COMPANIES DIRECTORY WEBSITE ",
       description:
         "TECH IN GAMBIA is the ultimate directory for IT companies in The Gambia. the website helps users discover and connect with tech companies, including software firms, ISPs, and GSM providers. ",
+      link: "https://techgambia.netlify.app",
     },
     // Orvba fullstack
     {
@@ -41,6 +43,7 @@ const Projects = () => {
       title: "VEHICLE BREAKDOWN ASSISTANCE APP",
       description:
         "It's a fullstack web application, frontend with React.js and Tailwind CSS, and backend with PHP Laravel.The application is designed to provide the users with the best possible solutions for their vehicle maintenance needs. It aims to reduce time and cost for the users to find mechanics during breakdowns. the data shown here is a temporary sample data, No backend yet ",
+      link: "Not yest deployed, still under development",
     },
     // audio devices
     {
@@ -51,6 +54,7 @@ const Projects = () => {
       title: "AUDIO DEVICES E-COMERCE APP ",
       description:
         "It's a web app frontend developed with Reat.js and Tailwind CSS , the user can see products with their details and can place an order through a shopping cart. the data shown here is a temporary sample data, No backend yet.",
+      link: "https://audio-devices.netlify.app",
     },
     // space tourism websire
     {
@@ -61,6 +65,7 @@ const Projects = () => {
       title: "SPACE TOURSIM WEBSITE ",
       description:
         "It's a website for space travellers. it displays the destination planets and the distance between each planet and the Earth. the space crew and the technologies",
+      link: "https://mustik-space.netlify.app",
     },
     // inheritance android app
     {
@@ -71,6 +76,7 @@ const Projects = () => {
       title: "ISLAMIC INHERITANCE ANDROID APP",
       description:
         "It's a simple mobile app that calculates Islamic inheritance. It has both Arabic and English languages. The user can select hte names of available inheritors in a particular case, and enter the amount to be shared. the result will display each person with their due share from the money",
+      link: "Not deployed",
     },
     // landing page and mobile shop
     {
@@ -81,6 +87,7 @@ const Projects = () => {
       title: "LANDING PAGE",
       description:
         "It's a personal blog site that is build with only HTML, CSS and JAVASCRIPT",
+      link: "",
     },
   ];
   //   const cards = Projects.map((item, index) => {
@@ -104,7 +111,13 @@ const Projects = () => {
             <p className="  w-3/4 text-sm mt-1 font-mono font-extrabold">
               {item.description}
             </p>
-
+            <a
+              href={item.link}
+              className="inline-block relative text-xs font-bold tracking-wider  text-blue-500"
+            >
+              {item.link}
+              <BorderBottom bottom="-bottom-1 h-px w-full " />
+            </a>
             <div className="cards flex-wrap mt-5 w-full h-auto p-4 grid grid-cols-1 lg:grid-cols-2 gap-4 ">
               {/* image one */}
               <picture className=" border-2 border-gray-500 rounded-md">
