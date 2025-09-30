@@ -1,7 +1,7 @@
-import IconFrontendMentor from "./assets/images/icon-frontend-mentor.svg";
-import IconGithHub from "./assets/images/icon-github.svg";
-import IconLinkedin from "./assets/images/icon-linkedin.svg";
-import IconTwitter from "./assets/images/icon-twitter.svg";
+// // import IconFrontendMentor from "./assets/images/icon-frontend-mentor.svg";
+// import IconGithHub from "./assets/images/icon-github.svg";
+// import IconLinkedin from "./assets/images/icon-linkedin.svg";
+// import IconTwitter from "./assets/images/icon-twitter.svg";
 import BorderBottom from "./components/BorderBottom";
 import Icon from "./components/Icon";
 import {
@@ -22,10 +22,14 @@ function App() {
   const mySkills = [
     {
       skill: "HTML, CSS, JAVASCRIPT",
-      experience: "2 years experience",
+      experience: "3 years experience",
     },
     {
-      skill: "REACT JS, TAILWIND CSS",
+      skill: "NEXT.JS,  REDUX RTK QUERY",
+      experience: "2 months experience",
+    },
+    {
+      skill: " REACT JS, TAILWIND CSS",
       experience: "6 months experience",
     },
     {
@@ -103,9 +107,9 @@ function App() {
               Based in the Gambia, I'm a junior software developer passionate
               about building accessible web apps and mobile apps that users
               love. I am a graduate with BScIT degree. I have strong skills in
-              Frontend, I am currently on a roadmap to becoming a Fullstack
-              developer, learning the technologies of Backend and Mobile App
-              development.
+              Frontend React and Next.js, I am currently on a roadmap to
+              becoming a Fullstack developer, learning the technologies of
+              Backend and Mobile App development.
             </p>
 
             <div className="mt-10 flex flex-col">
@@ -118,7 +122,7 @@ function App() {
                 <BorderBottom bottom="-bottom-1 h-px w-full lg:w-[33%]" />
               </p>
               <a
-                href="/CV/Mustapha_Jaiteh_CV2.pdf"
+                href="/CV/Mustapha_Jaiteh_CV.pdf"
                 download
                 className="inline-block bg-green-500 text-white font-bold py-2 px-4 rounded w-48 hover:bg-green-700 transition duration-200 place-self-center lg:place-self-start"
               >

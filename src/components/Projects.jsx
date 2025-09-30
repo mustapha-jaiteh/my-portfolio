@@ -1,7 +1,9 @@
 import React from "react";
 import BorderBottom from "./BorderBottom";
-import landingpage1 from "../assets/images/landing-page-1.jpeg";
-import landingpage2 from "../assets/images/landing-page-2.jpeg";
+import fashiondesk1 from "../assets/images/fashion-trend-desk-1.jpeg";
+import fashiondesk2 from "../assets/images/fashion-trend-desk-2.jpeg";
+import fashionmobile1 from "../assets/images/fashion-trend-mob-1.jpeg";
+import fashionmobile2 from "../assets/images/fashion-trend-mob-2.jpeg";
 import meerath1 from "../assets/images/meerath-1.jpeg";
 import meerath2 from "../assets/images/meerath-2.jpeg";
 import orvbad1 from "../assets/images/or-desk-1.jpeg";
@@ -23,6 +25,17 @@ import techgammobile2 from "../assets/images/techgam-mobile-2.jpeg";
 
 const Projects = () => {
   const projects = [
+    // E-commerce app for fashion trends store
+    {
+      img_desktop_1: fashiondesk1,
+      img_desktop_2: fashiondesk2,
+      img_mobile_1: fashionmobile1,
+      img_mobile_2: fashionmobile2,
+      title: "FASHION TRENDS E-COMMERCE APP",
+      description:
+        "It's an e-commerce app that allows users to browse and purchase fashion trends. The app has a clean and modern design, with a focus on user experience. It's built using Next.js, Stripe and Tailwind CSS, and the data is sourced from a Stripe third-party API .",
+      link: "https://fashion-trends-ochre.vercel.app",
+    },
     //IT companies derectory website
     {
       img_desktop_1: techgamdesk1,
@@ -77,17 +90,6 @@ const Projects = () => {
       description:
         "It's a simple mobile app that calculates Islamic inheritance. It has both Arabic and English languages. The user can select hte names of available inheritors in a particular case, and enter the amount to be shared. the result will display each person with their due share from the money",
       link: "Not deployed",
-    },
-    // landing page and mobile shop
-    {
-      img_desktop_1: landingpage1,
-      img_desktop_2: landingpage2,
-      img_mobile_1: landingpage1,
-      img_mobile_2: landingpage2,
-      title: "LANDING PAGE",
-      description:
-        "It's a personal blog site that is build with only HTML, CSS and JAVASCRIPT",
-      link: "",
     },
   ];
   //   const cards = Projects.map((item, index) => {
