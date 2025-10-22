@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Computers = () => {
   return (
-    <Tilt className="w-[300px] md:w-[600px] my-8 place-self-center  ">
+    <Tilt className="w-[300px] md:w-[600px] my-8 place-self-start  ">
       <motion.div
         variants={fadeIn("right", "spring", 0.5, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
