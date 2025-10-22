@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <section className="relative w-full h-[1100px] md:h-screen mx-auto flex flex-col items-center p-4 md:p-0">
       <div
-        className={`${styles.paddingX} absolute -inset-8  top-[120px] max-w-7xl mx-auto flex flex-col-reverse md:flex-row justify-between items-center md:items-start gap-5`}
+        className={`${styles.paddingX} absolute -inset-8  top-[120px] max-w-7xl mx-auto  flex flex-col-reverse md:flex-row justify-between items-center md:items-start gap-5`}
       >
         <div
-          className={`flex flex-row justify-center items-start gap-5 ${styles.padding} max-w-7xl mx-auto `}
+          className={`flex flex-row justify-center items-start gap-5 px-32 md:px-0 mx-12 md:mx-0`}
         >
           <div className="flex flex-col justify-center items-center mt-5 ">
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -22,9 +22,10 @@ const Hero = () => {
               Nice to meet you! <br />
               I'm <span className="text-[#915eff]">Mustapha Jaiteh</span>
             </h1>
-            <p className="text-white-100 mt-2 text-[18px]">
-              I'm a junior software developer passionate <br /> about building
-              accessible web apps and mobile apps that users love.
+            <p className="text-white-100 mt-2 text-[14px] md:text-[18px]">
+              I'm a junior software developer
+              <br /> passionate about building accessible web apps and mobile
+              apps that users love.
             </p>
             <a
               href="/CV/Mustapha_Jaiteh_CV.pdf"
