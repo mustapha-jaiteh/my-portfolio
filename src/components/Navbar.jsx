@@ -45,7 +45,7 @@ const Navbar = () => {
           ))}
         </ul>
         {/* mobile nav */}
-        <div className="sm:hidden flex flex-1 justify-end items-center ml-8 ">
+        <div className="sm:hidden flex flex-1 justify-end items-center mr-4 ">
           <img
             src={toggle ? close : menu}
             alt="menu"
