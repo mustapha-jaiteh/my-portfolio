@@ -15,7 +15,7 @@ const Hero = () => {
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
             <div className="w-1 sm:h-80 h-40 violet-gradient" />
           </div>
-          <div>
+          <div className="flex flex-col justify-center items-center mx-5 md:mx-0 ">
             <h1 className={`${styles.heroSubText} text-white`}>
               Nice to meet you! <br />
               I'm <span className="text-[#915eff]">Mustapha Jaiteh</span>
