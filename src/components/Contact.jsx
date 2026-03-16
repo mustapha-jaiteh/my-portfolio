@@ -149,7 +149,7 @@ const Contact = () => {
             <h1 className="text-2xl text-gray-400 mt-8 ">
               Developed by: <br />
               <span className="font-bold font-mono text-2xl text-white">
-                Mustapha Jaiteh, a junior software developer passionate about
+                Mustapha Jaiteh, a software developer passionate about
                 building accessible web apps and mobile apps that users love.
               </span>
             </h1>

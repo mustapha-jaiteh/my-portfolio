@@ -18,10 +18,10 @@ const ProjectCard = ({
   website_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full sm:w-[360px] flex">
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className=" bg-tertiary p-5 rounded-2xl  sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl w-full flex flex-col"
       >
         <div className="relative w-full h-[230px] ">
           <img
@@ -51,9 +51,9 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 flex flex-col flex-1">
           <h3 className="text-white text-[24px] font-bold">{name}</h3>
-          <p className="mt-2 text-secondary text-[16px] font-semibold">
+          <p className="mt-2 text-secondary text-[16px] font-semibold flex-1">
             {description}
           </p>
         </div>

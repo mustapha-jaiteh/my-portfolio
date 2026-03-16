@@ -22,9 +22,9 @@ const Computers = () => {
           className="bg-tertiary rounded-[20px] min-h-[280px] flex flex-col justify-evenly items-center"
         >
           <img
-            src="/computer.jpg"
+            src="/mustapha.jpeg"
             alt="computer"
-            className="object-cover w-full h-[280px] rounded-[20px]"
+            className="object-cover w-full h-[300px] rounded-[20px]"
           />
         </div>
       </motion.div>

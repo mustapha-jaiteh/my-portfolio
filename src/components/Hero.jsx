@@ -11,21 +11,26 @@ const Hero = () => {
         className={`${styles.paddingX} absolute -inset-8  top-[120px] max-w-7xl mx-auto  flex flex-col-reverse md:flex-row justify-between items-center md:items-start gap-5`}
       >
         <div
-          className={`flex flex-row justify-center items-start gap-5 px-32 md:px-0 mx-12 md:mx-0`}
+          className={`flex flex-row justify-center items-start gap-5 px-3 md:px-0 mx-2 md:mx-0`}
         >
           <div className="flex flex-col justify-center items-center mt-5 ">
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
             <div className="w-1 sm:h-80 h-40 violet-gradient" />
           </div>
-          <div className=" ">
+          <div className="w-full ">
             <h1 className={`${styles.heroSubText} text-white`}>
               Nice to meet you! <br />
               I'm <span className="text-[#915eff]">Mustapha Jaiteh</span>
             </h1>
-            <p className="text-white-100 mt-2 text-[14px] md:text-[18px]">
-              I'm a junior software developer
-              <br /> passionate about building accessible web apps and mobile
-              apps that users love.
+            <p className="text-white-100 mt-2 text-[14px] md:text-[18px] leading-relaxed">
+              <span className="text-xl">I'm a software developer</span>
+              <br /> 
+              Highly motivated Full-Stack Developer with a Bachelor of Information Technology <br />
+               and a proven track record in building scalable web and mobile applications. <br />
+               passionate about building accessible web apps and mobile
+              apps that users love. <br />
+                Equipped in React Native for cross-platform mobile delivery,<br />
+                 React.js and Next.js for web applications and PHP Laravel for robust backend architectures.
             </p>
             <a
               href="/CV/Mustapha_Jaiteh_CV.pdf"
@@ -35,7 +40,7 @@ const Hero = () => {
               <span className="text-white-100">Download my CV:</span>{" "}
               <ArrowDownTrayIcon className="w-10 h-10 bg-red-500 p-1 rounded-md" />
             </a>
-            <Computers />
+            {/* <Computers /> */}
           </div>
         </div>
         <div className=" w-[300px] h-auto">

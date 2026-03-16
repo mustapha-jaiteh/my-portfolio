@@ -17,7 +17,10 @@ import {
   docker,
   faalen,
   iou,
+  jcc,
   audio,
+  mirathzakaat,
+  sesdo,
   breakdown,
   fashion,
   space,
@@ -25,6 +28,8 @@ import {
   techgam,
   threejs,
   nextjs,
+  laravel,
+  reactnative,
 } from "../assets";
 
 export const navLinks = [
@@ -44,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "HTML 5 & CSS 3",
+    title: "React.js, Next.js, Tailwind CSS, HTML 5, CSS 3, JavaScript (ES6+)",
     icon: web,
   },
   {
-    title: "JavaScript & TypeScript",
+    title: "React Native, Android basics  & TypeScript",
     icon: mobile,
   },
   {
-    title: "React JS & Next JS",
+    title: "PHP Laravel, MySQL, Git & GitHub",
     icon: backend,
   },
   {
-    title: "Tailwind CSS, Git & GitHub",
+    title: "GitHub Copilot, V0, Antigravity (AI-first IDE) & Gemini",
     icon: creator,
   },
 ];
@@ -86,10 +91,10 @@ const technologies = [
     name: "Next JS",
     icon: nextjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -119,9 +124,29 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "React Native",
+    icon: reactnative,
+  },
 ];
 
 const experiences = [
+   {
+    title: "THREE MONTHS INTERNSHIP AT JCC",
+    company_name: "participated in some major projects of Jasseh Code Camp",
+    icon: jcc,
+    iconBg: "#383E56",
+    date: "NOV 2025 - FEB 2026",
+    points: [
+      "SESDO football management system",
+      "BECL website backend upgration",
+      "AI tools & Automation",
+    ],
+  },
   {
     title: "INTERNATIONAL OPEN UNIVERSITY",
     company_name: "Bachelor of Information Technology",
@@ -140,8 +165,8 @@ const experiences = [
   {
     title: "JASSEH CODE CAMP",
     company_name: "Advanced Frontend Development",
-    icon: "",
-    iconBg: "#E6DEDD",
+    icon: jcc,
+    iconBg: "#383E56",
     date: "July 2024",
     points: ["React.js", "Tailwind CSS", "TypeScript", "JavaScript"],
   },
@@ -162,7 +187,7 @@ const experiences = [
     title: "DIGITAL SKILLS TRAINING",
     company_name: "Web Development Basics",
     icon: faalen,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "June 2023",
     points: ["HTML", "CSS", "JavaScript"],
   },
@@ -170,7 +195,7 @@ const experiences = [
     title: "INTERNATIONAL OPEN UNIVERSITY",
     company_name: "Certificate in (IC3)",
     icon: iou,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "2016",
     points: [
       "Awarded as the best student (A+)",
@@ -181,7 +206,7 @@ const experiences = [
     title: "INTERNATIONAL OPEN UNIVERSITY",
     company_name: "Certificate in (IEC)",
     icon: iou,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "2015",
     points: [
       "Awarded as the best student (Valedictory award)",
@@ -192,7 +217,7 @@ const experiences = [
     title: "MAHAD ISLAMIC INSTITUTE",
     company_name: "Certificate in Islamic Studies",
     icon: "",
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "2013",
     points: [
       "Awarded as the second best student",
@@ -229,32 +254,30 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "MOOD TRACKER APP",
+    {
+    name: "INHERITANCE & ZAKAAT CALCULATOR",
     description:
-      "Daily mood tracker app that helps users track their moods and activities. It provides a feature to check sleeping hours, daily activities and tracks the user's mood throughout the day.",
+      "It's a React Native mobile app that calculates the Islamic inheritance and zakaat with the Islamic rules. it's a dual language app (English and Arabic)",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "neon-db",
+        name: "react-native",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: mood,
-    source_code_link: "https://github.com/mustapha-jaiteh/mood-tracker",
-    website_link: "",
+    image: mirathzakaat,
+    source_code_link: "https://github.com/mustapha-jaiteh/mirath-zakaat",
+    website_link: "######",
   },
+ 
+ 
   {
     name: "FASHION TRENDS STORE",
     description:
@@ -280,6 +303,59 @@ const projects = [
     image: fashion,
     source_code_link: "https://github.com/mustapha-jaiteh/fashion-shop",
     website_link: "https://fashion-trends-ochre.vercel.app/",
+  },
+   {
+    name: "SESDO FOOTBALL MANAGEMENT SYSTEM",
+
+    description:
+      "It's a football management system for Serekunda East Sports Development Organisation. It displays the teams, players, matches, and the results of the matches. (I developed some modules of this project during my internship at Jasseh Code Camp)",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP-Laravel",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "Inertia.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sesdo,
+    source_code_link: "https://github.com/mustapha-jaiteh/sesdo-team-admin",
+    website_link: "###",
+  },
+   {
+    name: "MOOD TRACKER APP",
+    description:
+      "Daily mood tracker app that helps users track their moods and activities. It provides a feature to check sleeping hours, daily activities and tracks the user's mood throughout the day.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "neon-db",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mood,
+    source_code_link: "https://github.com/mustapha-jaiteh/mood-tracker",
+    website_link: "",
   },
   {
     name: "IT COMPANIES DIRECTORY",
@@ -329,50 +405,7 @@ const projects = [
     source_code_link: "https://github.com/mustapha-jaiteh/orvba-fullstack",
     website_link: "",
   },
-  {
-    name: "AUDIO DEVICES STORE",
-    description:
-      "It's a web app frontend developed with Reat.js and Tailwind CSS , the user can see products with their details and can place an order through a shopping cart.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: audio,
-    source_code_link: "https://github.com/mustapha-jaiteh/audio-devices",
-    website_link: "https://audio-devices.netlify.app/",
-  },
-  {
-    name: "SPACE TOURISM WEBSITE",
-    description:
-      "It's a website for space travellers. it displays the destination planets and the distance between each planet and the Earth. the space crew and the technologies",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: space,
-    source_code_link: "https://github.com/mustapha-jaiteh/mustik-space",
-    website_link: "https://mustik-space.netlify.app/",
-  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

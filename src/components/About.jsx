@@ -40,12 +40,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
       >
-        I'm a junior software developer passionate about building accessible web
-        apps and mobile apps that users love. I am a graduate with BScIT degree.
-        I have strong skills in Javascript and Typescript, and expertise in
-        frameworks like React.js and Next.js. I am currently on a roadmap to
-        becoming a Fullstack developer, learning the backend and Mobile App
-        developement technologies.
+      Highly motivated Full-Stack Developer with a Bachelor of Information Technology and a proven track record in building scalable web and mobile applications. passionate about building accessible web apps and mobile apps that users love. Equipped in React Native for cross-platform mobile delivery, React.js and Next.js for web applications and PHP Laravel for robust backend architectures.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 items-center justify-center ">
         {services.map((service, index) => (

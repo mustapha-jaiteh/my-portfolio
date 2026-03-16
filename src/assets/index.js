@@ -16,19 +16,24 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import nextjs from "./tech/nextjs.png";
+import nextjs from "./tech/nextjs.svg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import laravel from "./tech/laravel.svg";
+import reactnative from "./tech/reactnative.svg";
 
 import faalen from "./company/faalen.png";
 import iou from "./company/iou.png";
+import jcc from "./company/jcc.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import audio from "./audio.jpeg";
+import mirathzakaat from "./mirathzakaat.jpeg";
+import sesdo from "./sesdo.jpeg"
 import breakdown from "./breakdown.jpeg";
 import fashion from "./fashion.jpeg";
 import space from "./space.jpeg";
@@ -58,9 +63,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  laravel,
+  reactnative,
   faalen,
   iou,
+  jcc,
   audio,
+  mirathzakaat,
+  sesdo,
   breakdown,
   fashion,
   space,
