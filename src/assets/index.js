@@ -27,6 +27,7 @@ import reactnative from "./tech/reactnative.svg";
 import faalen from "./company/faalen.png";
 import iou from "./company/iou.png";
 import jcc from "./company/jcc.svg";
+import jasseh from "./company/jasseh.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -68,6 +69,7 @@ export {
   faalen,
   iou,
   jcc,
+  jasseh,
   audio,
   mirathzakaat,
   sesdo,

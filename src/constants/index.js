@@ -18,6 +18,7 @@ import {
   faalen,
   iou,
   jcc,
+  jasseh,
   audio,
   mirathzakaat,
   sesdo,
@@ -238,19 +239,12 @@ const testimonials = [
   {
     testimonial:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo eos animi fuga quos, quo enim earum eaque quisquam eum magni mollitia numquam facilis iure cumque aperiam nisi ea! Odio.",
-    name: "to be added...",
-    designation: "",
-    company: "",
-    image: "",
+    name: "Omar Jasseh",
+    designation: "CEO",
+    company: "Jasseh Code Camp",
+    image: jasseh,
   },
-  {
-    testimonial:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo eos animi fuga quos, quo enim earum eaque quisquam eum magni mollitia numquam facilis iure cumque aperiam nisi ea! Odio.",
-    name: "to be added...",
-    designation: "",
-    company: "",
-    image: "",
-  },
+ 
 ];
 
 const projects = [
@@ -404,6 +398,50 @@ const projects = [
     image: breakdown,
     source_code_link: "https://github.com/mustapha-jaiteh/orvba-fullstack",
     website_link: "",
+  },
+    {
+    name: " SPACE TOURISM WEBSITE",
+    description:
+      "Space tourism website that allows users to book flights to space. It also provides a feature to create a personalized travel plan based on the user's preferences and previous purchases.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: space,
+    source_code_link: "https://github.com/mustapha-jaiteh/mustik-space",
+    website_link: "https://mustik-space.netlify.app/",
+  },
+    {
+    name: " AUDIO DEVICES ONLINE STORE",
+    description:
+      "It's an e-commerce app that allows users to browse and purchase latest audio devices online. It also provides a feature to create a personalized shopping list based on the user's preferences and previous purchases.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: audio,
+    source_code_link: "https://github.com/mustapha-jaiteh/audio-devices",
+    website_link: "https://audio-devices.netlify.app/",
   },
 
 ];
