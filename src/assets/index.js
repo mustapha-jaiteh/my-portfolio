@@ -35,7 +35,7 @@ import tripguide from "./tripguide.png";
 import audio from "./audio.jpeg";
 import mirathzakaat from "./mirathzakaat.jpeg";
 import sesdo from "./sesdo.jpeg"
-import breakdown from "./breakdown.jpeg";
+import breakdown from "./breakdown.png";
 import fashion from "./fashion.jpeg";
 import space from "./space.jpeg";
 import mood from "./mood.jpeg";
