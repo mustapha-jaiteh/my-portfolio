@@ -16,8 +16,10 @@ import {
   figma,
   docker,
   faalen,
+  faal,
   iou,
   jcc,
+
   jasseh,
   audio,
   mirathzakaat,
@@ -137,8 +139,8 @@ const technologies = [
 
 const experiences = [
    {
-    title: "THREE MONTHS INTERNSHIP AT JCC",
-    company_name: "participated in some major projects of Jasseh Code Camp",
+    company_name: "THREE MONTHS INTERNSHIP AT JCC",
+    department: "participated in some major projects of Jasseh Code Camp",
     icon: jcc,
     iconBg: "#383E56",
     date: "NOV 2025 - FEB 2026",
@@ -149,8 +151,8 @@ const experiences = [
     ],
   },
   {
-    title: "INTERNATIONAL OPEN UNIVERSITY",
-    company_name: "Bachelor of Information Technology",
+    company_name: "INTERNATIONAL OPEN UNIVERSITY",
+    department: "Bachelor of Information Technology",
     icon: iou,
     iconBg: "#383E56",
     date: "2019 - 2023",
@@ -164,16 +166,16 @@ const experiences = [
     ],
   },
   {
-    title: "JASSEH CODE CAMP",
-    company_name: "Advanced Frontend Development",
+    company_name: "JASSEH CODE CAMP",
+    department: "Advanced Frontend Development",
     icon: jcc,
     iconBg: "#383E56",
     date: "July 2024",
     points: ["React.js", "Tailwind CSS", "TypeScript", "JavaScript"],
   },
   {
-    title: "DIGITAL SKILLS TRAINING",
-    company_name: "Computer Networking",
+    company_name: "DIGITAL SKILLS HUB",
+    department: "Computer Networking",
     icon: faalen,
     iconBg: "#383E56",
     date: "October 2023",
@@ -185,16 +187,16 @@ const experiences = [
     ],
   },
   {
-    title: "DIGITAL SKILLS TRAINING",
-    company_name: "Web Development Basics",
+    company_name: "DIGITAL SKILLS HUB",
+    department: "Web Development Basics",
     icon: faalen,
     iconBg: "#383E56",
     date: "June 2023",
     points: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "INTERNATIONAL OPEN UNIVERSITY",
-    company_name: "Certificate in (IC3)",
+    company_name: "INTERNATIONAL OPEN UNIVERSITY",
+    department: "Certificate in (IC3)",
     icon: iou,
     iconBg: "#383E56",
     date: "2016",
@@ -204,8 +206,8 @@ const experiences = [
     ],
   },
   {
-    title: "INTERNATIONAL OPEN UNIVERSITY",
-    company_name: "Certificate in (IEC)",
+    company_name: "INTERNATIONAL OPEN UNIVERSITY",
+    department: "Certificate in (IEC)",
     icon: iou,
     iconBg: "#383E56",
     date: "2015",
@@ -215,8 +217,8 @@ const experiences = [
     ],
   },
   {
-    title: "MAHAD ISLAMIC INSTITUTE",
-    company_name: "Certificate in Islamic Studies",
+    company_name: "MAHAD ISLAMIC INSTITUTE",
+    department: "Certificate in Islamic Studies",
     icon: "",
     iconBg: "#383E56",
     date: "2013",
@@ -230,17 +232,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo eos animi fuga quos, quo enim earum eaque quisquam eum magni mollitia numquam facilis iure cumque aperiam nisi ea! Odio.",
-    name: "to be added...",
-    designation: "",
-    company: "",
-    image: "",
+      "Mustapha is a dedicated and passionate learner who trained at the Digital Skills Hub in Graphic Design, Web Development, and Networking. He consistently demonstrated a strong passion for technology, creativity, and a commitment to excellence in practical projects. I am confident that the tech industry will soon be hearing more about him.",
+    name: "Ousman Faal",
+    position: "CEO",
+    company: "Faalen Technologies",
+    image: faal,
   },
   {
     testimonial:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo eos animi fuga quos, quo enim earum eaque quisquam eum magni mollitia numquam facilis iure cumque aperiam nisi ea! Odio.",
     name: "Omar Jasseh",
-    designation: "CEO",
+    position: "CEO",
     company: "Jasseh Code Camp",
     image: jasseh,
   },
@@ -396,8 +398,8 @@ const projects = [
       },
     ],
     image: breakdown,
-    source_code_link: "https://github.com/mustapha-jaiteh/orvba-fullstack",
-    website_link: "",
+    source_code_link: "https://github.com/mustapha-jaiteh/gamrepair",
+    website_link: "https://orvba-app.onrender.com/",
   },
     {
     name: " SPACE TOURISM WEBSITE",

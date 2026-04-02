@@ -9,7 +9,7 @@ const FeedbackCard = ({
   index,
   testimonial,
   name,
-  designation,
+  position,
   company,
   image,
 }) => (
@@ -27,7 +27,7 @@ const FeedbackCard = ({
             {name}
           </p>
           <p className="mt-1 text-secondary text-[12px] ">
-            <span className="white-text-gradient font-bold mr-1">{designation}</span> of <span className="white-text-gradient font-bold mr-1">{company}</span>
+            <span className="white-text-gradient font-bold mr-1">{position}</span> of <span className="white-text-gradient font-bold mr-1">{company}</span>
           </p>
         </div>
         <img

@@ -28,6 +28,7 @@ import faalen from "./company/faalen.png";
 import iou from "./company/iou.png";
 import jcc from "./company/jcc.svg";
 import jasseh from "./company/jasseh.jpeg";
+import faal from "./company/faal.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -70,6 +71,7 @@ export {
   iou,
   jcc,
   jasseh,
+  faal,
   audio,
   mirathzakaat,
   sesdo,
