@@ -29,6 +29,7 @@ import {
   space,
   mood,
   techgam,
+  expensetracker,
   threejs,
   nextjs,
   laravel,
@@ -250,6 +251,54 @@ const testimonials = [
 ];
 
 const projects = [
+      {
+    name: "EXPENSE TRACKER",
+    description:
+      "It's a fullstack (MERN Stack) application that helps users track their income and expenses on a daily, monthly or yearly basis",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node & Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: expensetracker,
+    source_code_link: "https://github.com/mustapha-jaiteh/expense-tracker",
+    website_link: "https://expense-tracker-tau-liart-73.vercel.app/",
+  },
+    {
+    name: " BRAKDOWN ASSISTANCE",
+    description:
+      "The application provides users with the best possible solutions for their vehicle maintenance needs. It aims to reduce time and cost for the users to find mechanics during breakdowns.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: breakdown,
+    source_code_link: "https://github.com/mustapha-jaiteh/gamrepair",
+    website_link: "https://orvba-app.onrender.com/",
+  },
     {
     name: "INHERITANCE & ZAKAAT CALCULATOR",
     description:
@@ -327,7 +376,31 @@ const projects = [
     source_code_link: "https://github.com/mustapha-jaiteh/sesdo-team-admin",
     website_link: "###",
   },
-   {
+  
+ 
+  {
+    name: "IT COMPANIES DIRECTORY",
+    description:
+      "TECH IN GAMBIA is the ultimate directory for IT companies in The Gambia. the website helps users discover and connect with tech companies, including software firms, ISPs, and GSM providers.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: techgam,
+    source_code_link: "https://github.com/mustapha-jaiteh/techingambia",
+    website_link: "https://techgambia.netlify.app/",
+  },
+    {
     name: "MOOD TRACKER APP",
     description:
       "Daily mood tracker app that helps users track their moods and activities. It provides a feature to check sleeping hours, daily activities and tracks the user's mood throughout the day.",
@@ -353,54 +426,7 @@ const projects = [
     source_code_link: "https://github.com/mustapha-jaiteh/mood-tracker",
     website_link: "",
   },
-  {
-    name: "IT COMPANIES DIRECTORY",
-    description:
-      "TECH IN GAMBIA is the ultimate directory for IT companies in The Gambia. the website helps users discover and connect with tech companies, including software firms, ISPs, and GSM providers.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: techgam,
-    source_code_link: "https://github.com/mustapha-jaiteh/techingambia",
-    website_link: "https://techgambia.netlify.app/",
-  },
-  {
-    name: " BRAKDOWN ASSISTANCE",
-    description:
-      "The application provides users with the best possible solutions for their vehicle maintenance needs. It aims to reduce time and cost for the users to find mechanics during breakdowns.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "laravel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: breakdown,
-    source_code_link: "https://github.com/mustapha-jaiteh/gamrepair",
-    website_link: "https://orvba-app.onrender.com/",
-  },
+
     {
     name: " SPACE TOURISM WEBSITE",
     description:

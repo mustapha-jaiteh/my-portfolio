@@ -41,6 +41,7 @@ import fashion from "./fashion.jpeg";
 import space from "./space.jpeg";
 import mood from "./mood.jpeg";
 import techgam from "./techgam.jpeg";
+import expensetracker from "./expensetracker.png"
 
 export {
   logo,
@@ -80,4 +81,5 @@ export {
   space,
   mood,
   techgam,
+  expensetracker
 };
